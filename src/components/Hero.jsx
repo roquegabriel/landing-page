@@ -7,11 +7,13 @@ import xdLogo from '../assets/images/adobe-xd.svg'
 
 const Hero = () => {
     return (
-        <section className='h-[90vh] grid grid-cols-1 md:grid-cols-8'>
-            <div className='md:col-span-5 flex items-center justify-center p-16'>
+        <section className='m-h-[90vh] grid grid-cols-1 xl:grid-cols-8'>
+            {/* Information */}
+            <div className='md:col-span-5 flex items-center justify-center p-8 xl:p-16'>
                 <div className='flex flex-col gap-8'>
-                    <h1 className='text-7xl font-bold leading-[7.5rem]'>Web Design Impactful Digital
-                        <span className='text-primary py-2 px-6 border-8 border-primary relative'>
+                    <h1 className='text-7xl font-bold leading-[7.5rem]'>
+                        Web Design Impactful Digital
+                        <span className='text-primary py-2 px-6 border-8 border-primary relative inline-block lg:inline'>
                             Products
                             <RiCheckboxBlankCircleFill className='text-base absolute -left-5 -top-5 text-white p-2 bg-primary rounded-full box-content' />
                             <RiCheckboxBlankCircleFill className='text-base absolute -left-5 -bottom-5 text-white p-2 bg-primary rounded-full box-content' />
@@ -19,18 +21,22 @@ const Hero = () => {
                             <RiCheckboxBlankCircleFill className='text-base absolute -right-5 -bottom-5 text-white p-2 bg-primary rounded-full box-content' />
                         </span>
                     </h1>
+                    {/* Hero text */}
                     <p className='text-gray-500 text-2xl leading-[2.5rem]'>Help find solutions with intitutive and in accordance with client business goals. We provide a high-quality services.</p>
-                    <div className='flex items-center gap-4'>
-                        <button className='bg-primary text-white py-2 px-8 rounded-xl font-bold text-xl'>Contact us</button>
-                        <button className='py-2 px-8 rounded-xl text-xl flex items-center gap-4 text-left text-gray-500'>
+                    {/* Buttons */}
+                    <div className='flex items-center gap-4 flex-col md:flex-row'>
+                        <button className='w-full xl:w-auto bg-primary text-white py-2 px-8 rounded-xl font-bold text-xl'>Contact us</button>
+                        <button className='w-full xl:w-auto py-2 px-8 rounded-xl text-xl flex items-center gap-4 text-left text-gray-500'>
                             <RiPlayFill className='bg-secondary text-primary rounded-full p-4 box-content' />Watch our <br /> introduction video
                         </button>
                     </div>
                 </div>
             </div>
-            <div className='relative md:col-span-3 flex items-center justify-center'>
+            {/* Image */}
+            <div className='relative md:col-span-3 flex items-center justify-center p-8'>
+                {/* Content image */}
                 <div>
-                    <img src={heroImage} alt="Hero" className='w-[450px] h-[450px] object-cover -mt-28' />
+                    <img src={heroImage} alt="Hero" className='w-[250px] h-[250px] md:w-[450px] md:h-[450px] object-cover xl:-mt-28' />
                     <div className='bg-white flex flex-col justify-center max-w-[250px] mx-auto shadow-lg rounded-lg p-4 gap-2 relative -mt-12'>
                         <div className='flex items-center'>
                             <img src="https://img.freepik.com/foto-gratis/mujer-oriental_1303-5251.jpg" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300' alt="Employee picture" />
@@ -51,13 +57,13 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[380px] h-[380px] border-[10px] border-primary rounded-full -z-10' >
-                {/* Logos */}
+                {/* Circle */}
+                <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[280px] h-[280px] md:w-[380px] md:h-[380px] border-[10px] border-primary rounded-full -z-10' >
+                    {/* Logos */}
                 </div>
-                <img src={figmaLogo} alt="Logo figma" className='w-20 h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute top-[12%] right-[10%]'   />
-                <img src={illustratorLogo} alt="illustrator figma" className='w-20 h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute top-[2%] left-[10%]'   />
-                <img src={xdLogo} alt="Xd figma" className='w-20 h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute bottom-[5%] left-[3%]'   />
-
+                <img src={figmaLogo} alt="figma logo" className='w-10 h-10 md:w-20 md:h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute top-[12%] right-[20%] xl:right-[10%]' />
+                <img src={illustratorLogo} alt="illustrator logo" className='w-10 h-10 md:w-20 md:h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute top-[10%] xl:top-[2%] left-[20%] xl:left-[10%]' />
+                <img src={xdLogo} alt="Xd logo" className='w-10 h-10 md:w-20 md:h-20 object-fill rounded-full bg-black border-l-8 border-gray-600 absolute bottom-[5%] left-[15%] xl:left-[3%] -rotate-12' />
             </div>
         </section>
     )
