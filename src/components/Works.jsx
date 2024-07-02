@@ -4,7 +4,7 @@ const Works = () => {
     return (
         <div className=' p-8 xl:p-20'>
             <div className='mb-8'>
-                <h1 className='text-[40px] font-bold'>We create world-class digital products</h1>
+                <h1 className='text-[40px] font-black'>We create world-class digital products</h1>
                 <p className='text-xl text-gray-500'>By information about design the world to the best instructors</p>
             </div>
             {/* Works */}

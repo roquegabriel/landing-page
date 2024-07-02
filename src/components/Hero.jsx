@@ -40,8 +40,8 @@ const Hero = () => {
                     <div className='bg-white flex flex-col justify-center max-w-[250px] mx-auto shadow-lg rounded-lg p-4 gap-2 relative -mt-12'>
                         <div className='flex items-center'>
                             <img src="https://img.freepik.com/foto-gratis/mujer-oriental_1303-5251.jpg" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300' alt="Employee picture" />
-                            <img src="https://img.freepik.com/foto-gratis/joven-rubia-camiseta-blanca_273609-7146.jpg?" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300 -ml-4' alt="Employee picture" />
-                            <img src="https://img.freepik.com/foto-gratis/mujer-joven-morena-ropa-casual_273609-22632.jpg?" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300 -ml-4' alt="Employee picture" />
+                            <img src="https://img.freepik.com/foto-gratis/joven-rubia-camiseta-blanca_273609-7146.jpg" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300 -ml-4' alt="Employee picture" />
+                            <img src="https://img.freepik.com/foto-gratis/mujer-joven-morena-ropa-casual_273609-22632.jpg" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300 -ml-4' alt="Employee picture" />
                             <img src="https://img.freepik.com/foto-gratis/apuesto-joven-brazos-cruzados-sobre-fondo-blanco_23-2148222620.jpg" className='h-10 w-10 rounded-full object-cover ring-2 ring-gray-300 -ml-4' alt="Employee picture" />
                         </div>
                         <h2 className='font-bold text-xl tracking-wide'>120+ Employees</h2>
