@@ -12,7 +12,7 @@ const Header = () => {
                 <a href='#' className='text-2xl font-bold relative bg-white px-1'> Power <span className='text-primary text-5xl'>.</span>
                     <RiCheckboxBlankCircleFill className='absolute -left-3 -bottom-3 text-primary -z-10' /></a>
             </div>
-            <nav className={`flex-1 flex items-center justify-center gap-10 fixed xl:static bg-white w-[80%] xl:w-full h-full ${showMenu ? 'left-0' : '-left-full'} top-0 flex-col xl:flex-row transition-all duration-500 md:w-[50%]`}>
+            <nav className={`flex-1 flex items-center justify-center gap-10 fixed xl:static bg-white w-[80%] xl:w-full h-full ${showMenu ? 'left-0' : '-left-full'} top-0 flex-col xl:flex-row transition-all duration-500 md:w-[50%] z-50`}>
                 <a href="#">Home</a>
                 <a href="#">About us</a>
                 <a href="#">Services</a>
