@@ -5,7 +5,7 @@ import { RiLayout3Fill, RiMailFill } from 'react-icons/ri'
 
 const Services = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 p-8 xl:p-20 gap-8 md:gap-20'>
+    <div className='grid grid-cols-1 md:grid-cols-2 p-8 md:p-12 xl:p-20 gap-8 md:gap-20'>
         <div className='flex flex-col gap-4'>
             <h1 className='text-[40px] font-bold '>How can we help you</h1>
             <p className='text-[20px] text-gray-500'>Follow our newsletter. We will regularly update latest project and availability.</p>
