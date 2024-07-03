@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header className='flex w-full items-center py-4 px-8 h-[10vh] z-20 justify-between xl:justify-start'>
             <div className='xl:w-1/6 text-center -mt-4'>
-                <a href='#' className='text-2xl font-bold relative bg-white px-1'> Power <span className='text-primary text-5xl'>.</span>
+                <a href='#' className='text-2xl font-bold relative bg-white px-1'> Power<span className='text-primary text-5xl'>.</span>
                     <RiCheckboxBlankCircleFill className='absolute -left-3 -bottom-3 text-primary -z-10' /></a>
             </div>
             <nav className={`flex-1 flex items-center justify-center gap-10 fixed xl:static bg-white w-[80%] xl:w-full h-full ${showMenu ? 'left-0' : '-left-full'} top-0 flex-col xl:flex-row transition-all duration-500 md:w-[50%] z-50`}>
